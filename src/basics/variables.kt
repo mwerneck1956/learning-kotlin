@@ -1,8 +1,5 @@
 package basics
 
-class variables {
-}
-
 
 fun main() {
     val name: String = "Matheus"
@@ -19,5 +16,9 @@ fun main() {
 
     val course = "Kotlin Spring"
 
-    print("Course : $course and the length is");
+    println("Course : $course and the length is");
+
+    val num = topLevelFunction();
+    println("Num is : $num")
+    println("courseName : $courseName")
 }
