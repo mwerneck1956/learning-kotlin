@@ -15,7 +15,7 @@ fun main(){
 
 fun castNumber(any : Any){
    when(any){
-       any as Double -> println("Value is double")
+       any as? Double -> println("Value is double")
    }
 }
 
